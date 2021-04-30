@@ -4,8 +4,13 @@
     box-shadow: 0px 0px 43px 17px rgba(153,153,153,1);
     border-radius: 10px;
     background-image: url('https://images.pexels.com/photos/6496462/pexels-photo-6496462.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-   
+      transition-property: width height ;
+
 }
+.container:hover{
+    width: min-content;
+    height:auto;
+}    
 h1{
     text-align: center;
     color:black; 
